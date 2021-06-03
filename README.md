@@ -61,3 +61,6 @@
 - with open
     - "extensions"
 - os module
+    - general module importings
+- raw string on Windows
+- path relativization
