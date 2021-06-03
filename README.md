@@ -1,7 +1,10 @@
 # ntp_python
  Programming (python) material for NTP program.
+0. - setting up Anaconda environment
+
 1. - introduction
 - basic phylosophy (import this)
+    - form of communication
 - 'Hello world!'
     - print() statement
 - string data type
@@ -19,6 +22,9 @@
     - or
     - ==
     - !=
+    - pass
+    - continue
+    - break
 
 2. - data types 1
 - recap str
@@ -43,3 +49,15 @@
     - indexing?
     - mutability
     - other data types combined with dictionary
+    
+4. - iteration
+- syntax
+    - head
+    - body
+- controlling mechanisms
+- indexing inside loop
+
+5. - working with files
+- with open
+    - "extensions"
+- os module
