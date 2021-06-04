@@ -9,9 +9,10 @@
 - 'Hello world!'
     - print() statement
 - string data type
-    - indexing (0 based, reversing), slicing,
+    - indexing (0 based, reversing), slicing, replace, split
     - .find()
         - + len(string)
+    - special characters as strings ('\n', '\t')
 - create variable
 - conditional statements
     - if, elif, else
