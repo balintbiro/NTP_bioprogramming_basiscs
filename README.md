@@ -13,7 +13,7 @@
     - .find()
         - + len(string)
     - special characters as strings ('\n', '\t')
-- create variable
+- declare variable
 - conditional statements
     - if, elif, else
 - special statements
