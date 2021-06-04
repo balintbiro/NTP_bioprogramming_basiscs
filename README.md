@@ -65,5 +65,11 @@
 7. - data types 3
 - arrays
 - dataframes
+
+8. - data types 4
 - pandas
     - csv specific function, vectorizing
+    
+9. - object orinted programming
+- classes
+- instances
