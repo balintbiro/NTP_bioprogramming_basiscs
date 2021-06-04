@@ -61,3 +61,9 @@
 - return
 - global variables
 - recursive function calling
+
+7. - data types 3
+- arrays
+- dataframes
+- pandas
+    - csv specific function, vectorizing
