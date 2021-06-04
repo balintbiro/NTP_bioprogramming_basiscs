@@ -16,7 +16,7 @@
 - conditional statements
     - if, elif, else
 - special statements
-    - is, in, and, or, ==, !=, pass, continue, break
+    - is, in, and, or, ==, !=
 
 2. - data types 1
 - recap str
@@ -25,23 +25,26 @@
 - float
     - special float ('nan'), rounding
 - using type() function
-- type conversions
+- type conversions vica versa
 
 3. - data types 2
 - list
-    - indexing, mutability, append function,
+    - indexing, mutability, append function, inserting
     - nested list
         - len()
         - indexing
 - dictionary
-    - structure, indexing?, mutability,
+    - structure, indexing?, mutability
     - other data types combined with dictionary
+    - {key:value} vs dictionary[key] = value
     
 4. - iteration
 - syntax
     - head, body
 - controlling mechanisms
+    - range, pass, continue, break
 - indexing inside loop
+    - enumerate
 
 5. - working with files
 - with open
@@ -56,3 +59,4 @@
 - simplest function (input = output)
 - return
 - global variables
+- recursive function calling
