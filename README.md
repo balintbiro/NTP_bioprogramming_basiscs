@@ -1,7 +1,7 @@
 # ntp_python
  Programming (python) material for NTP program.
 
-0. - setting up Anaconda environment
+0. - setting up Anaconda environment and GitHub
 
 1. - introduction
 - basic phylosophy (import this)
