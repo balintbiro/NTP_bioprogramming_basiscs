@@ -14,13 +14,13 @@
         - + len(string)
     - special characters as strings ('\n', '\t')
 - declare variable
-- conditional statements
-    - if, elif, else
 - special statements
     - is, in, and, or, ==, !=
 
 2. - data types 1
-- recap str
+- recap str (.find())
+- conditional statements
+    - if, elif, else
 - int
     - as return value of len()'s
 - float
