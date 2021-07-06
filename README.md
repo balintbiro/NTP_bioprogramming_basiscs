@@ -49,11 +49,13 @@
 
 5. - working with files
 - with open
-    - "extensions"
-- os module
+    - "extensions" --> w,a, def
+- os module (path.join, listdir)
     - general module importings
+    - using with iteration
 - raw string on Windows
 - filepath relativization
+    - LINUX/MAC style, home_dir definition
 
 6. - define own functions
 - syntax
