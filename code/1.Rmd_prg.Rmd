@@ -1,0 +1,16 @@
+---
+title: "1_prg"
+author: "Balint_Biro"
+date: "1/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE, cache=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+msg='proba'
+msg
+```
+
