@@ -1,0 +1,18 @@
+---
+title: "1_prg"
+author: "Balint_Biro"
+date: "1/18/2022"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#variable declaration, quotation marks mean that the inner stuff is gonna be a string
+message <- 'hello world!'
+message
+```
+
+
