@@ -1,12 +1,9 @@
 ---
-title: "Untitled"
-author: "Balint_Biro"
-date: "1/18/2022"
-output: html_document
-keep_md: true
+title: "R Notebook"
+output: html_notebook
 ---
-```{r echo=TRUE keep_md=TRUE output: rmarkdown::github_document}
-msg <- "proba"
+```{r}
+msg <- 'hello world'
 msg
 ```
 
