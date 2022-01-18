@@ -19,9 +19,32 @@ typeof(message)
     ## [1] "character"
 
 ``` r
+#check the length of our character (string) variable
+nchar(message)
+```
+
+    ## [1] 12
+
+``` r
 #purely typed number have a datatype "double" which refers to the double precision floating point number
 number <- 123
 typeof(number)
 ```
 
     ## [1] "double"
+
+``` r
+#declaring integer type variables
+number <- 3L
+typeof(number)
+```
+
+    ## [1] "integer"
+
+``` r
+#indexing in R is 1 based
+string <- 'This is a sample string!'
+substring(string,1,3)
+```
+
+    ## [1] "Thi"
