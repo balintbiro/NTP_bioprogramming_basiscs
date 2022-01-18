@@ -2,7 +2,7 @@
 title: "R Notebook"
 output: html_notebook
 ---
-```{r cache=TRUE}
+```{r results='hold'}
 msg <- 'hello world'
 msg
 ```
