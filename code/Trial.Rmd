@@ -1,0 +1,11 @@
+---
+title: "Untitled"
+author: "Balint_Biro"
+date: "1/18/2022"
+output: github_document
+---
+```{r}
+msg <- 'hello world'
+msg
+```
+
