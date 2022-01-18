@@ -1,3 +1,4 @@
 .DS_STORE
 code/.ipynb_checkpoints/Untitled-checkpoint.ipynb
 code/.ipynb_checkpoints/12_prg_differentiation-checkpoint.ipynb
+*.Rmd
