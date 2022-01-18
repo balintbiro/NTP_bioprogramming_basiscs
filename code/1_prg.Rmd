@@ -1,14 +1,12 @@
 ---
-title: "1_prg"
+title: "Untitled"
 author: "Balint_Biro"
 date: "1/18/2022"
-output: rmarkdown::github_document
+output: html_document
+keep_md: true
 ---
-
-```{r}
-#variable declaration, quotation marks mean that the inner stuff is gonna be a string
-message <- 'hello world!'
-message
+```{r echo=TRUE keep_md=TRUE output: rmarkdown::github_document}
+msg <- "proba"
+msg
 ```
-
 
