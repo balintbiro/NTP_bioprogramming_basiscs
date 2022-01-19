@@ -131,6 +131,51 @@ mylist[[3]]
     ## [1] TRUE
 
 ``` r
+#add new element to a list
+mylist <- list(1,'a',123.2,TRUE,c(12,3,4))
+mylist
+```
+
+    ## [[1]]
+    ## [1] 1
+    ## 
+    ## [[2]]
+    ## [1] "a"
+    ## 
+    ## [[3]]
+    ## [1] 123.2
+    ## 
+    ## [[4]]
+    ## [1] TRUE
+    ## 
+    ## [[5]]
+    ## [1] 12  3  4
+
+``` r
+#add new element to a list
+mylist <- append(mylist,'new_element')
+mylist
+```
+
+    ## [[1]]
+    ## [1] 1
+    ## 
+    ## [[2]]
+    ## [1] "a"
+    ## 
+    ## [[3]]
+    ## [1] 123.2
+    ## 
+    ## [[4]]
+    ## [1] TRUE
+    ## 
+    ## [[5]]
+    ## [1] 12  3  4
+    ## 
+    ## [[6]]
+    ## [1] "new_element"
+
+``` r
 #splitting up a string will result in a list
 mystring <- 'abcdefg'
 mylist <- strsplit(mystring,'')
@@ -139,3 +184,36 @@ mylist
 
     ## [[1]]
     ## [1] "a" "b" "c" "d" "e" "f" "g"
+
+``` r
+#create dictionary type variable <- dictionary consists of key/value pairs
+genes <- c('cntnap'='chr2:100-2000','ptprc'='chr4:2300-2900','lrrc4c'='chr7:10-1900')
+genes
+```
+
+    ##           cntnap            ptprc           lrrc4c 
+    ##  "chr2:100-2000" "chr4:2300-2900"   "chr7:10-1900"
+
+``` r
+#accessing one element (key/value pair) of a dictionary
+genes['cntnap']
+```
+
+    ##          cntnap 
+    ## "chr2:100-2000"
+
+``` r
+#accessing just the value of a given key with type conversion
+as.character(genes['cntnap'])
+```
+
+    ## [1] "chr2:100-2000"
+
+``` r
+#add new element (aka item, key/value pair) to the dictionary
+genes['sept10'] <- 'chr9:278-3970'
+genes
+```
+
+    ##           cntnap            ptprc           lrrc4c           sept10 
+    ##  "chr2:100-2000" "chr4:2300-2900"   "chr7:10-1900"  "chr9:278-3970"
