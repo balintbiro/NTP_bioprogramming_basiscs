@@ -110,7 +110,7 @@ Some good materials are the followings:
 - https://www.analyticsvidhya.com/blog/2021/02/an-intuitive-guide-to-visualization-in-python/#:~:text=Matplotlib%20is%20a%20visualization%20library,%2C%20scatter%2C%20histogram%2C%20etc.
 - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
 
-1️⃣:one: - calculus
+1️⃣:two: - calculus
 - differentiation with sympy
     - symbolic derivative
     - numeric derivative
