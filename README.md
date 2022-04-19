@@ -1,6 +1,10 @@
 # ntp_python
  Programming (python) material for NTP program.
 
+<p align="right">
+<img src="data/NTP_logo_color.png">
+</p>
+
 Some good materials are the followings:
 - in depth explanation of the syntax and concepts http://nyelvek.inf.elte.hu/leirasok/Python/
 - programming concepts in Python https://infopy.eet.bme.hu/
