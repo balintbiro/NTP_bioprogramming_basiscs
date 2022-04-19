@@ -2,7 +2,7 @@
  Programming (python) material for NTP program.
 
 <p align="right">
-<img src="data/NTP_logo_color.png" height='150' width='275'>
+<img src="data/NTP_logo_color.png" height='150' width='300'>
 </p>
 
 Some good materials are the followings:
